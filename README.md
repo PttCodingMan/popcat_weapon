@@ -19,10 +19,8 @@ var event = new KeyboardEvent('keydown', {
 });
 
 setInterval(function(){
-	for (i = 0; i < 100; i++) {
-		document.dispatchEvent(event);
-	}
-}, 50);
+	document.dispatchEvent(event);
+}, 55);
 ```
 
 ![](https://i.imgur.com/AqfPvt3.png)
