@@ -22,7 +22,7 @@ setInterval(function(){
 	for (i = 0; i < 100; i++) {
 		document.dispatchEvent(event);
 	}
-}, 0);
+}, 50);
 ```
 
 ![](https://i.imgur.com/AqfPvt3.png)
