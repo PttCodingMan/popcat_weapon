@@ -1,6 +1,4 @@
-# popcat_weapon
-
-## 此為 popcat 點點大賽台灣夥伴教學
+# 此為 popcat 點點大賽台灣夥伴教學
 
 第一步
 打開網址 https://popcat.click
