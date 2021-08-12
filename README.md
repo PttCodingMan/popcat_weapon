@@ -13,13 +13,8 @@
 把底下的程式碼貼到指令區按下 Enter !
 
 ```javascript=
-var event = new KeyboardEvent('keydown', {
-	key: 'g',
-	ctrlKey: true
-});
-
 setInterval(function(){
-	document.dispatchEvent(event);
+    document.dispatchEvent(new KeyboardEvent('keydown'));
 }, 55);
 ```
 
